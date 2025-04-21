@@ -1,10 +1,10 @@
 import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <a href="https://linkedin.com/in/tu_usuario">LinkedIn</a>
-      <br />
       <a href="https://github.com/tu_usuario">GitHub</a>
     </footer>
   );
