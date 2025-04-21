@@ -1,0 +1,104 @@
+main h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.main {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main nav a {
+    margin: 0 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main nav a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.main h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.main section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main section h3 {
+    font-size: 1.4rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.main section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.main section,
+.main div {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #3498db;
+}
+
+.volverArriba {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .main h2 {
+        font-size: 1.5rem;
+    }
+
+    .main section {
+        padding: 15px;
+    }
+}
