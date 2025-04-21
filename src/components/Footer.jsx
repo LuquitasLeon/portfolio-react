@@ -4,8 +4,8 @@ import '../styles/Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <a href="https://linkedin.com/in/tu_usuario">LinkedIn</a>
-      <a href="https://github.com/tu_usuario">GitHub</a>
+      <a href="https://www.linkedin.com/in/lucas-ismael-leon-3966b0271/">LinkedIn</a>
+      <a href="https://github.com/LuquitasLeon">GitHub</a>
     </footer>
   );
 }

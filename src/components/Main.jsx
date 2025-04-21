@@ -40,7 +40,7 @@ function Main() {
 
       <div id="presentacion">
         <h2>Presentación</h2>
-        <p>Soy Lucas Ismael Leon, estudiante de Programación en la Facultad Regional Tucumán...</p>
+        <p>Soy Lucas Ismael Leon, estudiante de Programación en la Facultad Regional Tucumán</p>
       </div>
 
       <section id="estudios">
